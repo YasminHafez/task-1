@@ -9,12 +9,10 @@ $price3 = 6;
 
 if($unit <= 50){
     echo "the price is " .  $unit*$price1 . "$";
-}
-if($unit > 50 && $unit < 150) {
+}elseif($unit > 50 && $unit < 150) {
     $calc = $unit * $price2;
     echo "the price is {$calc}$";
-}
-if($unit >= 150){
+}elseif($unit >= 150){
     echo "the price is " . $unit*$price3 . "$";
 }
 
