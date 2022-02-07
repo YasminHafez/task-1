@@ -3,7 +3,7 @@
 $unit = 51;
 $price1 = 3.5;
 $price2 = 4;
-$price3 = 6;
+$price3 = 6.5;
 
 
 
