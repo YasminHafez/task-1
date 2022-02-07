@@ -5,8 +5,6 @@ $price1 = 3.5;
 $price2 = 4;
 $price3 = 6;
 
-
-
 if($unit <= 50){
     echo "the price is " .  $unit*$price1 . "$";
 }elseif($unit > 50 && $unit < 150) {
